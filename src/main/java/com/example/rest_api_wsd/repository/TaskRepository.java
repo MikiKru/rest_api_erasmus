@@ -13,6 +13,7 @@ public interface TaskRepository {
             Arrays.asList(
                     new Task("Learning Java", LocalDateTime.of(2022,12,1,10,0), Category.NEW),
                     new Task("Learning Python", LocalDateTime.of(2022,11,10,10,0), Category.IN_PROGRESS),
+                    new Task("Learning PHP", LocalDateTime.of(2021,11,10,10,0), Category.IN_PROGRESS),
                     new Task("Clean coding", LocalDateTime.of(2022,11,2,10,0), Category.DONE)
             )
     );
